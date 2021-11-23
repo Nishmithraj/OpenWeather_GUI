@@ -124,7 +124,7 @@ def main_thread(e):
 
 # search_frame
 city = Entry(search_frame, font=("Helvetica", 10, 'bold'), justify=CENTER, bd=5)
-city.insert(0, 'keyyur')
+city.insert(0, 'Bangalore')
 city.grid(row=0, column=0, sticky='news', padx=30, pady=20)
 search_btn = Button(search_frame, text="Search", relief=GROOVE, font=("Helvetica", 10, 'bold'), bd=5, command=lambda :main_thread(1))
 search_btn.grid(row=0, column=1, sticky='news', pady=20, ipadx=30)
