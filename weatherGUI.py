@@ -30,7 +30,7 @@ def get_weather(CITY):
         search_btn.config(state=DISABLED)
         weather_report_lbl.config(text="Searching.. please wait")
         BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-        API_KEY = "2d076255db659af3c6d3bc562c9a4d15"
+        API_KEY = ""        # Get from openweathermap.org
         URL = BASE_URL + "q=" + CITY + "&APPID=" + API_KEY
         response = requests.get(URL)
         if response.status_code == 200:
