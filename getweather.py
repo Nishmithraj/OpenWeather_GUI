@@ -5,7 +5,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 # City Name
 CITY = "bangalore"
 # API key
-API_KEY = "2d076255db659af3c6d3bc562c9a4d15"
+API_KEY = ""   # GET FROM openweathermap.org
 # upadting the URL
 URL = BASE_URL + "q=" + CITY + "&APPID=" + API_KEY
 # HTTP request
